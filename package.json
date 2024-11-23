@@ -1,5 +1,5 @@
 {
-  "name": "react-library-template",
+  "name": "ra-ui-chakraui",
   "homepage": "https://morewings.github.io/react-library-template/",
   "private": false,
   "version": "0.1.0",
@@ -17,22 +17,7 @@
       "require": "./dist/index.umd.cjs"
     }
   },
-  "keywords": [
-    "react",
-    "template",
-    "react-testing-library",
-    "testing-library",
-    "eslint",
-    "npm",
-    "rollup",
-    "stylelint",
-    "library",
-    "package",
-    "vite",
-    "css-modules",
-    "typescript"
-  ],
-  "description": "Missing React, typescript NPM library creation template",
+  "description": "UI components for react-admin with Chakra UI",
   "scripts": {
     "dev": "vite",
     "clean:lib": "rm -rf dist",
@@ -56,7 +41,17 @@
     "react-dom": ">=18.2.0"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@chakra-ui/react": "^3.2.0",
+    "@emotion/react": "^11.13.5",
+    "lodash": "^4.17.21",
+    "next-themes": "^0.4.3",
+    "ra-core": "^5.3.3",
+    "ra-i18n-polyglot": "^5.3.3",
+    "ra-language-english": "^5.3.3",
+    "react-hook-form": "^7.53.2",
+    "react-icons": "^5.3.0",
+    "react-router": "^6.28.0",
+    "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
     "@eslint/compat": "1.2.2",
@@ -102,6 +97,7 @@
     "postcss": "8.4.47",
     "postcss-preset-env": "10.0.9",
     "prettier": "3.3.3",
+    "ra-data-fakerest": "^5.3.3",
     "react": "18.3.1",
     "react-docgen-typescript": "2.2.2",
     "react-dom": "18.3.1",
